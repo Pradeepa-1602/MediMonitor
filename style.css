@@ -1,0 +1,46 @@
+body{
+background: linear-gradient(to right,#e3f2fd,#ffffff);
+}
+
+.card{
+border-radius:20px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.02);
+}
+
+button{
+border-radius:10px;
+}
+
+h2{
+font-weight:bold;
+}
+
+#suggestions{
+z-index: 1000;
+max-height: 150px;
+overflow-y: auto;
+border-radius: 10px;
+}
+#pillSuggestions{
+z-index:1000;
+max-height:150px;
+overflow-y:auto;
+border-radius:10px;
+}
+
+.chat-box{
+height:350px;
+overflow-y:auto;
+background:#f8f9fa;
+border-radius:15px;
+padding:10px;
+}
+
+.badge{
+font-size:14px;
+border-radius:10px;
+}
